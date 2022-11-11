@@ -7,7 +7,4 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka/
-okta:
-  Oauth2:
-    issuer: https://dev-90869994.okta.com/oauth2/default
-    audience: api://default
+
