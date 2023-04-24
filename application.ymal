@@ -9,6 +9,7 @@ spring:
   jpa:
     database-platform:  org.hibernate.dialect.MySQL8Dialect
     hibernate:
+      show_sql=true
       format_sql: true
       ddl-auto: update
 eureka:
@@ -21,6 +22,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
       
-  zipkin:
-    baseUrl: http://zipkin-svc:9411 
+
   
